@@ -1,10 +1,10 @@
 module "acm" {
   source           = "../../"
-  domain_name      = "*.stg-tvlk.cloud"
-  hosted_zone_name = "stg-tvlk.cloud"
-  certificate_name = "wildcard.stg-tvlk.cloud"
-  environment      = "staging"
-  description      = "Wildcard certificate for example.stg-tvlk.cloud"
+  domain_name      = "*.tsi.dev-tvlk.cloud"
+  hosted_zone_name = "tsi.dev-tvlk.cloud"
+  certificate_name = "wildcard.tsi.dev-tvlk.cloud"
+  environment      = "tsi"
+  description      = "Wildcard certificate for example.tsi.dev-tvlk.cloud"
   product_domain   = "exm"
 }
 
